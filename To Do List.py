@@ -34,7 +34,7 @@ while run:
     print("Enter 2 to remove a work")
     print("Enter 3 to view all the works")
     print("Enter 4 to exit")
-    choice1=int(input("Enter your choice(between 1 to 4):"))
+    choice1=(input("Enter your choice(between 1 to 4):"))
     match choice1 :
         case 1:
             add()
