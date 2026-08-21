@@ -28,4 +28,4 @@ for i in range(len(quiz)):
         print("your answer is incorrect")    
     print("********************")    
 
-print(f"Your precentage is {correct_answer/len(quiz)*100:.2f}")    
+print(f"Your percentage is {correct_answer/len(quiz)*100:.2f}%")    
