@@ -22,7 +22,12 @@ elif choice=="*":
 elif choice== "/":
     x=float(input("Enter the divident:"))
     y=float(input("Enter the divisor:"))
-    print(f"Division is {x/y:.2f}")   
+    if y==0:
+        print("0 can be used as a divisor choose another diviser")
+        y=float(input("Enter the divisor:"))
+        print(f"Division is {x/y:.2f}") 
+    else:
+        print(f"Division is {x/y:.2f}")    
 
 else :
     print("Invalid choice")
