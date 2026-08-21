@@ -1,14 +1,14 @@
 import random
-list=("☠️","🦅","🐬","❤️")
+symbols=("☠️","🦅","🐬","❤️")
 amount=int(input("Enter your amount:₹"))
 run=True
 
 while run:
     slot=[]
     bet=int(input("Enter your bet:₹"))
-    if bet<amount:
+    if 0<bet<=amount:
         for i in range(0,3):
-            emoji=random.choice(list)
+            emoji=random.choice(symbols)
             slot.append(emoji)
             print(emoji,end="  ")
         print()    
@@ -18,7 +18,7 @@ while run:
         else :
             print("You lost")
             amount-=bet
-        run1=input("Enter 'y' to countinue 'n' to stop:") 
+        run1=input("Enter 'y' to continue or 'n' to stop:") 
         if run1=="n":
             run=False
 
