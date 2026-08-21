@@ -7,7 +7,7 @@ quiz=["1.What is the radius of Earth ?",
 
 
 answer=["A.6371 KM  B.6375 KM  C.6451 KM  D.None of the above",
-        "A.9.8 m/s  B.9.6 m/s  C.9.9 m/s  D.None of the above",
+        "A.9.8 m/s² B.9.6 m/s²  C.9.9 m/s²  D.None of the above",
         "A.Lithium ion Battery  B.Carbon Battery  C. Zinc Battery  D.Nickel Battery",
         "A.Colour  B.Fruit  C.Orange Paint D.Invisible",
         "A.Asus  B.Macbook  C.HP  D.Lenovo",
