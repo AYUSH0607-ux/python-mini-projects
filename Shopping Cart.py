@@ -29,6 +29,5 @@ for i in range(0,len(cart)):
         cart_value+=value
     else :
         print(f"{item} is not in the shop")    
-    i+=1
 print(f"Total is {cart_value}")    
         
