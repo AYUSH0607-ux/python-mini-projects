@@ -1,4 +1,6 @@
 import random
+import time
+
 symbols=("☠️","🦅","🐬","❤️")
 amount=int(input("Enter your amount:₹"))
 run=True
@@ -10,6 +12,7 @@ while run:
         for i in range(0,3):
             emoji=random.choice(symbols)
             slot.append(emoji)
+            time.sleep(2)
             print(emoji,end="  ")
         print()    
         if slot[0]==slot[1]==slot[2]:
